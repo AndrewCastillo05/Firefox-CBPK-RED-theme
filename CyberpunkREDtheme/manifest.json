@@ -1,13 +1,18 @@
+{  
   "manifest_version": 2,
   "version": "1.1",
   "name": "RED",
   "browser_specific_settings": {
 	  "gecko": {
-	  	"id": "CBPK-RED-Theme@AndrewCastillo.themes",
-		"strict_min_version": "58.0",
-		"strict_max_version": "*",
+	  	"id": "{ef12bea2-7ba3-44f8-8243-dce9247acc35}",
+		"strict_min_version": "142.0",
 		"update_url": "https://github.com/AndrewCastillo05/Firefox-CBPK-RED-theme/blob/main/update_manifest.json",
-		"data_collection_permissions": "none"
+		"data_collection_permissions":
+		{
+			"required": [
+				"none"
+			]
+		}
 
 	  }
   },
@@ -66,4 +71,5 @@
       "toolbar_vertical_separator": "rgb(255, 0, 0)"
     }
   }
+}
 
